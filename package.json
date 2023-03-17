@@ -1,0 +1,27 @@
+{
+	"name": "edu-flowley-ga-data-api",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"dev:cred": "GOOGLE_APPLICATION_CREDENTIALS=\"./credentials.json\" node index.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^2.0.20"
+	},
+	"dependencies": {
+		"@google-analytics/data": "^3.2.1",
+		"axios": "^1.0.0",
+		"cookie-parser": "^1.4.6",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.1",
+		"googleapis": "^112.0.0",
+		"node-fetch": "^3.2.10"
+	}
+}
